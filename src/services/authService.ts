@@ -1,6 +1,6 @@
 import { User } from "../models/User";
 
-const API_BASE_URL = 'http://107.23.178.208:8080';
+const API_BASE_URL = 'http://18.205.17.221:8080';
 
 export const registerUser = async (user: User) => {
   return fetch(`${API_BASE_URL}/api/auth/register`, {
