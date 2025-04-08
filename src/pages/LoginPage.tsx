@@ -49,35 +49,34 @@ export const LoginPage = () => {
 
       {/* Creative Static Information Panel */}
       <div className="info-panel">
-        <h2>Welcome to Our Loan Management System!</h2>
+        <h2>Welcome to Our Platform!</h2>
         <p>
-          Discover exciting features and learn more about how our system can help streamline your loan management process.
+          Discover the cutting-edge features of our Loan Management System and learn how it can transform your experience.
         </p>
         <ul>
           <li>
             <a href="https://example.com/feature1" target="_blank" rel="noopener noreferrer">
-              Feature 1: Easy Application Process
+              Modern Application Process
             </a>
           </li>
           <li>
             <a href="https://example.com/feature2" target="_blank" rel="noopener noreferrer">
-              Feature 2: Instant Approval Notifications
+              Real-Time Notifications
             </a>
           </li>
           <li>
             <a href="https://example.com/feature3" target="_blank" rel="noopener noreferrer">
-              Feature 3: Comprehensive Loan Analytics
+              Detailed Analytics & Reporting
             </a>
           </li>
         </ul>
         <img 
           src="https://via.placeholder.com/350x150" 
           alt="Creative Visual" 
-          style={{ width: '100%', borderRadius: '5px', marginBottom: '1rem' }} 
         />
-        {/* Placeholder for a Carousel - you can integrate a carousel component/library here */}
-        <div style={{ border: '1px solid #ccc', borderRadius: '5px', padding: '1rem' }}>
-          <p>Carousel Placeholder: Add rotating images or testimonials here!</p>
+        {/* Future carousel integration */}
+        <div style={{ border: '1px solid #eee', borderRadius: '8px', padding: '1rem', textAlign: 'center', marginTop: '1rem' }}>
+          <p>Carousel Placeholder: Show rotating testimonials or feature highlights here!</p>
         </div>
       </div>
     </div>
