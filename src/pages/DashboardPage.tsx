@@ -44,6 +44,8 @@ export const DashboardPage = () => {
       category: { categoryId: 1 },
       taskStatus: { taskStatusId: 1 },
     };
+    console.log(task);
+    
     await addTask(task);
     // clean the ui after adding the task:
     setTitle('');
