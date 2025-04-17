@@ -36,7 +36,7 @@ export const DashboardPage = () => {
   };
 
   const handleAddTask = async () => {
-    const task = {
+    const task: Task = {
       title,
       description,
       dueDate,
